@@ -27,7 +27,7 @@ public static void main(String args[]) {
 
 	int firstsymbol = email.indexOf("@"); 
 	int secondsymbol = email.lastIndexOf("@");
-;
+
 	if (firstsymbol == -1){ 
 		status = "Invalid";
 		reason = "Missing @";
