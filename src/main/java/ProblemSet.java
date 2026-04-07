@@ -59,8 +59,6 @@ if (status.equals("Valid") && email.contains(" ")) {
 	}
 	
 
-
-
 // checks if the email has 1-64 character before @ 
 if (status.equals("Valid")){
 	if (firstPart.length() < 1) {
@@ -146,7 +144,3 @@ String checker = secondPart.toLowerCase();
 	}
 }
 }
-
-
-// i got lazy ~ no 100%
-
